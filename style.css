@@ -17,10 +17,8 @@ body {
 }
 
 .center-image {
-    .center-image {
     height: 80px; /* Održavanje proporcija slike */
 }
-
 /* Stilovi za naslov 'Od: Ajla Za: Jašar' */
 h2#fromTo {
     font-size: 1.8em;
