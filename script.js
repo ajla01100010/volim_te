@@ -3,7 +3,19 @@ const messages = [
     "Volim te odavdje do Mjeseca - 384,400 km",
     "Volim te odavdje do Sunca - 149,600,000 km",
     "Volim te odavdje do svih zvijezda i nazad",
-    "Volim te beskonačno!"
+    "Volim te beskonačno!",
+    "Volim te od Zenice do Sarajeva - 54.93 km",
+    "Volim te od Moskve do New Yorka - 7,501.47 km",
+    "Volim te odavdje do Marsa - 225,000,000 km",
+    "Volim te odavdje do Plutona - 4,280,000,000 km",
+    "Volim te više od svih zvijezda na nebu - procenjeno na 100 milijardi!",
+    "Volim te do najdublje tačke okeana - 10,994 metara (Marijanska brazda)",
+    "Volim te odavdje do najdalje poznate galaksije - 13,8 milijardi svjetlosnih godina",
+    "Volim te do kraja svijeta - 40,075 km (obim Zemlje)",
+    "Volim te kao što Sunce voli Zemlju - 149,600,000 km",
+    "Volim te više nego kilometara koliko smo zajedno prošli - svaki korak je vrijedan",
+    "Volim te kao što kiša voli zemlju - uvijek se vraća",
+    "Volim te toliko koliko ima zraka u ovoj sobi - nevidljivo ali svuda oko nas"
 ];
 
 let currentMessageIndex = 0;
