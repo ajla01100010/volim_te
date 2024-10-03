@@ -65,7 +65,7 @@ document.querySelectorAll('.activity-btn').forEach(button => {
             window.open('https://pozorista.ba', '_blank');
         } 
         if (activity === '🛌 U krevet') {
-            window.open('https://www.bbc.com/serbian/lat/svet-51622970', '_blank');
+            window.open('https://www.24sata.hr/lifestyle/uskladite-pozu-za-spavanje-za-vise-bliskosti-i-ugode-u-krevetu-830811', '_blank');
         } 
 
         if (activity === '🛍️ U shopping') {
