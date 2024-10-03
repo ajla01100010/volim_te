@@ -1,0 +1,105 @@
+/* Osnovni stilovi */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fbeffb;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+/* Stilovi za naslov 'Od: Ajla Za: Jašar' */
+h2#fromTo {
+    font-size: 1.8em;
+    color: #ff69b4;
+    margin-top: 20px;
+}
+
+/* Stilovi za glavnu poruku */
+h1 {
+    font-size: 2.5em;
+    color: #ff69b4;
+    margin-top: 10px;
+}
+
+/* Stilovi za galeriju */
+.gallery {
+    margin-top: 30px;
+}
+
+.gallery h2 {
+    font-size: 2em;
+    color: #ff1493;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-container img {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stilovi za aktivnosti */
+.activities {
+    margin-top: 30px;
+}
+
+.activities h2 {
+    font-size: 2em;
+    color: #ff1493;
+    margin-bottom: 10px;
+}
+
+.activity-btn {
+    background-color: #ff69b4;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.activity-btn:hover {
+    background-color: #ff1493;
+}
+
+.activity-btn:active {
+    transform: scale(0.98);
+}
+
+/* Stilovi za citate */
+.quotediv {
+    margin-top: 40px;
+}
+
+#quote {
+    font-size: 1.5em;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+#nextQuoteBtn {
+    background-color: #ff69b4;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nextQuoteBtn:hover {
+    background-color: #ff1493;
+}
