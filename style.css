@@ -11,6 +11,16 @@ body {
     margin-bottom: 20px;
 }
 
+.image-container {
+    text-align: center; /* Centriranje sadržaja unutar diva */
+    margin-bottom: 20px; /* Razmak ispod slike */
+}
+
+.center-image {
+    max-width: 100%; /* Prilagoditi širinu slike */
+    height: auto; /* Održavanje proporcija slike */
+}
+
 /* Stilovi za naslov 'Od: Ajla Za: Jašar' */
 h2#fromTo {
     font-size: 1.8em;
