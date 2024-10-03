@@ -17,8 +17,8 @@ body {
 }
 
 .center-image {
-    max-width: 100%; /* Prilagoditi širinu slike */
-    height: auto; /* Održavanje proporcija slike */
+    .center-image {
+    height: 100px; /* Održavanje proporcija slike */
 }
 
 /* Stilovi za naslov 'Od: Ajla Za: Jašar' */
