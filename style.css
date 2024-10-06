@@ -21,7 +21,7 @@ body {
 }
 /* Stilovi za naslov 'Od: Ajla Za: Jašar' */
 h2#fromTo {
-    font-size: 1.8em;
+    font-size: 14px;
     color: #ff69b4;
     margin-top: 20px;
 }
@@ -60,23 +60,30 @@ h1 {
 /* Stilovi za aktivnosti */
 .activities {
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap; /* Omogućava dugmadima da pređu u novi red */
+    justify-content: center; /* Centriraj dugmad */
 }
 
 .activities h2 {
     font-size: 2em;
     color: #ff1493;
     margin-bottom: 10px;
+    width: 100%; /* H2 zauzima cijelu širinu */
+    text-align: center;
 }
 
 .activity-btn {
-    background-color: #ff69b4;
+    background-color: #001219;
     color: white;
-    font-size: 1.2em;
+    font-size: 16px;
     padding: 10px 20px;
     margin: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
+    width: 150px; /* Fiksna širina dugmadi */
 }
 
 .activity-btn:hover {
@@ -85,6 +92,26 @@ h1 {
 
 .activity-btn:active {
     transform: scale(0.98);
+}
+
+/* Za mobilne uređaje */
+@media (max-width: 600px) {
+    .activities {
+        display: grid; /* Prebacujemo se na grid layout */
+        grid-template-columns: repeat(2, 1fr); /* Dvije kolone jednakih širina */
+        gap: 6px; /* Razmak između dugmadi */
+        justify-items: center; /* Centriraj dugmad unutar svake kolone */
+    }
+
+    .activities h2 {
+        grid-column: span 2; /* H2 sada zauzima dvije kolone u gridu */
+        text-align: center;
+    }
+
+    .activity-btn {
+        width: 100%; /* Dugmad će zauzimati punu širinu kolone na mobilnim uređajima */
+        font-size: 12px;
+    }
 }
 
 /* Stilovi za citate */
@@ -99,7 +126,7 @@ h1 {
 }
 
 #nextQuoteBtn {
-    background-color: #ff69b4;
+    background-color: #001219;
     color: white;
     font-size: 1.2em;
     padding: 10px 20px;
