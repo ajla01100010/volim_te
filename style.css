@@ -138,3 +138,16 @@ h1 {
 #nextQuoteBtn:hover {
     background-color: #ff1493;
 }
+
+.back-button {
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #ff1493; /* Plava boja za strelicu */
+    font-size: 18px; /* Veličina fonta */
+}
+.reasons-list {
+    list-style-type: none; /* Oznaka za listu */
+    padding-left: 20px; /* Razmak sa leve strane */
+    margin-top: 20px; /* Razmak iznad liste */
+}
