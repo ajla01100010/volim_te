@@ -57,7 +57,7 @@ document.querySelectorAll('.activity-btn').forEach(button => {
             window.open('https://www.blitz-cinestar-bh.ba', '_blank');
         }
 
-        if (activity === '🚶‍♂️ Šetati') {
+        if (activity === '🚶‍♀️ Šetati') {
             window.open('https://www.google.com/maps/search/places+to+walk+in+Sarajevo', '_blank');
         }
 
@@ -65,7 +65,7 @@ document.querySelectorAll('.activity-btn').forEach(button => {
             window.open('https://pozorista.ba', '_blank');
         }
         if (activity === '🛌 Krevet') {
-            window.open('https://www.bbc.com/serbian/lat/svet-51622970', '_blank');
+            window.open('https://www.24sata.hr/lifestyle/uskladite-pozu-za-spavanje-za-vise-bliskosti-i-ugode-u-krevetu-830811', '_blank');
         }
 
         if (activity === '🛍️ Shopping') {
@@ -93,8 +93,8 @@ document.querySelectorAll('.activity-btn').forEach(button => {
 
         if (activity === '🍳 Kuhati') {
             window.open('https://www.coolinarika.com', '_blank');
-        } 
-        
+        }
+
         if (activity === '🎵 Muzika') {
             alert('Idi na Gmail/\nEmail: jasariajla1005@gmail.com\nPassword: JasarAjla10.05\nKada se uspješno prijaviš, javi mi da bih popravila kod!\nAko ti je lakše, pošaljem ti podatke u chatu!');
         }
@@ -102,22 +102,22 @@ document.querySelectorAll('.activity-btn').forEach(button => {
         if (activity === '🍿 Film') {
             alert('Idi na Gmail/\nAko si se već prijavio na Google account, samo se prijavi sa njim!\nKada se uspješno prijaviš, javi mi da bih popravila kod!\nAko ti je lakše, pošaljem ti podatke u chatu!');
         }
-        
+
         if (activity === '📋 Bucket List') {
             alert('Idi na ovaj link: https://www.bucketlist.net/\nEmail: jasariajla1005@gmail.com\nPassword: JasarAjla10.05\nKada se uspješno prijaviš, javi mi da bih popravila kod!\nAko ti je lakše, pošaljem ti podatke u chatu!');
-        }        
-        
+        }
+
         if (activity === '☕ Kafa') {
             window.open('https://www.google.com/search?client=opera-gx&hs=yfo&sca_esv=a5db118e05c2ad26&tbs=lf:1,lf_ui:9&tbm=lcl&sxsrf=ADLYWIJuh0lDsIqp6-T4_XTd91b5W7Yo-Q:1728214050618&q=coffee+sarajevo&rflfq=1&num=10&sa=X&ved=2ahUKEwisydSE0_mIAxVchv0HHbSnPGMQjGp6BAgkEAE&biw=1495&bih=763&dpr=1.25#rlfi=hd:;si:;mv:[[43.861583499999995,18.4423486],[43.849895,18.3721547]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u1!2m2!1m1!1e1!1m4!1u1!2m2!1m1!1e2!2m1!1e2!2m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:9', '_blank');
-        } 
+        }
 
         if (activity === '🎧 Koncert') {
             window.open('https://www.kupikartu.ba/karte/kategorija/2', '_blank');
-        } 
+        }
         if (activity === '🍻 Svirka') {
             window.open('https://sarajevo.travel/ba/sta-raditi/aktivnosti/izlazak', '_blank');
-        } 
-        
+        }
+
         if (activity === '❓ Prijedlog?') {
             const email = "ajlabrdarevic@gmail.com";
             const subject = "Moj prijedlog";
